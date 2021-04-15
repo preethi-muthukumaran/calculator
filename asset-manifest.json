@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/preethi-muthukumaran/calculator/static/css/main.fbfb0997.chunk.css",
+    "main.js": "/preethi-muthukumaran/calculator/static/js/main.e2826299.chunk.js",
+    "main.js.map": "/preethi-muthukumaran/calculator/static/js/main.e2826299.chunk.js.map",
+    "runtime-main.js": "/preethi-muthukumaran/calculator/static/js/runtime-main.c8f5dba1.js",
+    "runtime-main.js.map": "/preethi-muthukumaran/calculator/static/js/runtime-main.c8f5dba1.js.map",
+    "static/js/2.c62e1cec.chunk.js": "/preethi-muthukumaran/calculator/static/js/2.c62e1cec.chunk.js",
+    "static/js/2.c62e1cec.chunk.js.map": "/preethi-muthukumaran/calculator/static/js/2.c62e1cec.chunk.js.map",
+    "static/js/3.19f02485.chunk.js": "/preethi-muthukumaran/calculator/static/js/3.19f02485.chunk.js",
+    "static/js/3.19f02485.chunk.js.map": "/preethi-muthukumaran/calculator/static/js/3.19f02485.chunk.js.map",
+    "index.html": "/preethi-muthukumaran/calculator/index.html",
+    "static/css/main.fbfb0997.chunk.css.map": "/preethi-muthukumaran/calculator/static/css/main.fbfb0997.chunk.css.map",
+    "static/js/2.c62e1cec.chunk.js.LICENSE.txt": "/preethi-muthukumaran/calculator/static/js/2.c62e1cec.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c8f5dba1.js",
+    "static/js/2.c62e1cec.chunk.js",
+    "static/css/main.fbfb0997.chunk.css",
+    "static/js/main.e2826299.chunk.js"
+  ]
+}
