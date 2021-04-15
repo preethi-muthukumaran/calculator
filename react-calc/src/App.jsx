@@ -6,9 +6,12 @@ import {ClearButton} from './components/ClearButton';
 import * as math from 'mathjs';
 //import { logDependencies } from 'mathjs';
 import LogEntry from './components/LogEntry';
+import {Notification} from './components/Notifications/Notification';
+import styled from 'styled-components';
 
 //class App extends Component {
 function App() {
+  const [showNotif, setShowNotif] = useState(false);
   const [logs, setLogs] = useState([]);
   const [input, setInput] = useState("");
   var result = "";
@@ -26,6 +29,11 @@ function App() {
     }
     setLogs(logs => logs.concat(log))
     setInput(result);
+    setShowNotif(true);
+  }
+
+  const hideNotif = () => {
+    setShowNotif(false)
   }
 
     return (
@@ -60,8 +68,12 @@ function App() {
             <ClearButton handleClear={() => setInput("")}>Clear</ClearButton>
           </div>
         </div>
-        <div>
+        <div className ="main-logs">
           <LogEntry goals = {logs}/>
+        </div>
+        <div className = "notifs">
+          <Notification top = {16} visibility = {showNotif ?  "visible":"hidden"}/>
+          <button className ="ok-button" onClick={hideNotif}>OK</button>
         </div>
       </div>
     );
