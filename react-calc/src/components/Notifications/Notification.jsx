@@ -3,7 +3,7 @@ import styled from 'styled-components';
 var visible;
 const Container = styled.div`
     visibility: ${props => props.visible};
-    background-color: #4444;
+    background-color: #708090;
     color: white;
     padding: 16px;
     position: absolute;
