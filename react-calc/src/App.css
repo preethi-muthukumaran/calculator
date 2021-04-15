@@ -9,7 +9,7 @@
 .calc-wrapper {
   width: 50%;
   height: 600px;
-  flex: 0.5;
+  flex: 0.75;
   justify-content: flex-start;
   align-items: flex-start;
   margin-left: 10px;
@@ -17,7 +17,25 @@
 
 }
 
+.main-logs {
+  flex: 0.5
+}
+
+.notifs {
+  flex: 0.75;
+  align-items: "flex-end";
+  justify-content: flex-end; 
+}
+
 .row {
   display: flex;
   width: 100%;
+}
+
+.ok-button {
+  margin-top: 75px;
+  margin-left: 250px;
+  flex-direction: rtl;
+  justify-content: center;
+  align-items: flex-end;
 }
